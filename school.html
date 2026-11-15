@@ -1,96 +1,715 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:title" content="Future Link School - Kaka Sahib, Nowshera | Admission Open">
-<meta property="og:description" content="Playgroup to Class 5 | Quality Education | Admission Open 2026 | Call 0333-9049358">
-<title>Future Link School - Kaka Sahib</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
-html{scroll-behavior:smooth}
-header{background:#0a2a5e;color:white;padding:15px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;animation:slideDown .8s ease}
-@keyframes slideDown{from{transform:translateY(-100%)}to{transform:translateY(0)}}
-header b{font-size:1.35rem} header b span{color:#ffc107}
-nav a{color:white;text-decoration:none;margin-left:18px;font-size:.9rem;transition:.3s}
-nav a:hover{color:#ffc107}
-.marquee{background:#ffc107;color:#0a2a5e;font-weight:800;padding:8px;overflow:hidden;white-space:nowrap}
-.marquee span{display:inline-block;animation:marquee 18s linear infinite}
-@keyframes marquee{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
-.hero{background:linear-gradient(135deg,#0a2a5e,#1e6fd9);color:white;padding:65px 5%;text-align:center;overflow:hidden}
-.hero h1{font-size:2.7rem;line-height:1.1;animation:fadeUp 1s ease}
-.hero h1 span{color:#ffc107}
-.hero p{margin:18px auto;max-width:620px;opacity:.92;animation:fadeUp 1.2s ease}
-@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
-.float{animation:float 3s ease-in-out infinite}
-@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
-.btn{display:inline-block;background:#ffc107;color:#0a2a5e;padding:14px 30px;border-radius:50px;font-weight:800;text-decoration:none;margin:8px 5px;animation:pulse 2s infinite}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,193,7,.6)}70%{box-shadow:0 0 0 15px rgba(255,193,7,0)}100%{box-shadow:0 0 0 0 rgba(255,193,7,0)}}
-.btn2{background:white;animation:none}
-.btn:hover{transform:scale(1.05)}
-section{padding:55px 5%;max-width:1100px;margin:auto;animation:fadeUp .8s ease}
-h2{text-align:center;font-size:2rem;color:#0a2a5e;margin-bottom:8px}
-.sub{text-align:center;color:#666;margin-bottom:30px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-.card{background:#f7f9ff;padding:28px;border-radius:20px;text-align:center;border:1px solid #e5eaff;transition:.4s;cursor:pointer}
-.card:hover{transform:translateY(-10px) scale(1.03);box-shadow:0 20px 40px rgba(10,42,94,.15);background:white}
-.card div{font-size:2.4rem;animation:bounce 2s infinite}
-@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-.card h3{margin:10px 0;color:#0a2a5e}
-.fee-table{width:100%;border-collapse:collapse;background:white;border-radius:15px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.07)}
-.fee-table th{background:#0a2a5e;color:white;padding:14px}.fee-table td{padding:13px;text-align:center;border-bottom:1px solid #eee}
-.fee-table tr{transition:.3s}.fee-table tr:hover{background:#fff7e0;transform:scale(1.01)}
-.fee-table tr:nth-child(even){background:#f7f9ff}
-input,select,textarea{width:100%;padding:13px;margin:8px 0;border:1px solid #ddd;border-radius:10px;transition:.3s}
-input:focus{border-color:#1e6fd9;outline:none;box-shadow:0 0 0 3px rgba(30,111,217,.15)}
-footer{background:#061a3a;color:white;text-align:center;padding:30px}
-.whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:14px 20px;border-radius:50px;text-decoration:none;font-weight:700;box-shadow:0 10px 25px rgba(0,0,0,.25);z-index:20;animation:pulseGreen 2s infinite}
-@keyframes pulseGreen{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}70%{box-shadow:0 0 0 15px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
-@media(max-width:600px){nav{display:none}.hero h1{font-size:2rem}}
-</style></head><body>
+<!DOCTYPE html>
+<html lang="en">
 
-<header><b>FUTURE <span>LINK</span> SCHOOL</b><nav><a href="#about">About</a><a href="#fee">Fee</a><a href="#admission">Admission</a><a href="tel:03339049358">Call</a></nav></header>
-<div class="marquee"><span>🎉 ADMISSION OPEN 2026 - Playgroup to Class 5 - Future Link School, Kaka Sahib, Nowshera - Call Now 0333-9049358 🎉 &nbsp;&nbsp;&nbsp; ADMISSION OPEN 2026 🎉</span></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The FutureLink School - Walai, Nowshera</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&family=Playfair+Display:wght@800&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif
+    }
 
-<div class="hero">
-<p style="background:rgba(255,255,255,.15);display:inline-block;padding:6px 15px;border-radius:50px;font-size:.85rem">📍 Kaka Sahib, Nowshera</p>
-<h1 class="float">Best Education For<br><span>Bright Future</span></h1>
-<p>At Future Link School, your child gets quality education, Islamic values and modern skills - all in one place.</p>
-<a class="btn" href="#admission">Fill Admission Form 📝</a>
-<a class="btn btn2" href="https://wa.me/923339049358">WhatsApp Us 💬</a>
-<p style="font-size:.9rem;margin-top:12px">✅ Admission Open 2026 &nbsp; | &nbsp; ✅ Playgroup to Class 5</p>
-</div>
+    html {
+      scroll-behavior: smooth
+    }
 
-<section id="about"><h2>Why Future Link School?</h2><p class="sub">We don't just teach, we build your child's future</p>
-<div class="grid">
-<div class="card"><div>📚</div><h3>Quality Education</h3><p>Experienced teachers with modern syllabus and personal attention.</p></div>
-<div class="card"><div>🕌</div><h3>Islamic Training</h3><p>Daily training of Namaz, Quran and good manners.</p></div>
-<div class="card"><div>💻</div><h3>English + Computer</h3><p>English speaking and computer training from early classes.</p></div>
-<div class="card"><div>🏆</div><h3>Activities</h3><p>Sports, Naat, Speech Competitions and Annual Function.</p></div>
-</div></section>
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: white
+    }
 
-<section id="fee"><h2>Fee Structure</h2><p class="sub">Affordable Fee - Quality Education | Kaka Sahib, Nowshera</p>
-<table class="fee-table">
-<tr><th>Class</th><th>Monthly Fee</th><th>Admission Fee</th></tr>
-<tr><td><b>Playgroup</b></td><td><b>Rs 1000</b></td><td>Rs 500</td></tr>
-<tr><td><b>KG / Nursery</b></td><td><b>Rs 1200</b></td><td>Rs 500</td></tr>
-<tr><td><b>Class 1</b></td><td><b>Rs 1500</b></td><td>Rs 800</td></tr>
-<tr><td><b>Class 2</b></td><td><b>Rs 1600</b></td><td>Rs 800</td></tr>
-<tr><td><b>Class 3</b></td><td><b>Rs 1800</b></td><td>Rs 800</td></tr>
-<tr><td><b>Class 4</b></td><td><b>Rs 2000</b></td><td>Rs 1000</td></tr>
-<tr><td><b>Class 5</b></td><td><b>Rs 2200</b></td><td>Rs 1000</td></tr>
-</table>
-<p style="text-align:center;margin-top:15px;color:#666;font-size:.9rem">Note: Special discount available for siblings. Call for details.</p>
-</section>
+    .logo-icon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, #ffc107, #ff8a00);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px
+    }
 
-<section id="admission"><h2>Online Admission Form</h2><p class="sub">Fill the form, we will call you back - 0333-9049358</p>
-<form onsubmit="window.open('https://wa.me/923339049358?text=Hello! I want Admission in Future Link School. Child Name: '+document.getElementById('n1').value+' Class: '+document.getElementById('c1').value,'_blank');alert('Thank You! Your form has been sent on WhatsApp.');return false" style="max-width:500px;margin:auto;background:white;padding:25px;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.08)">
-<input id="n1" placeholder="Child Name" required>
-<input placeholder="Father Name" required>
-<input placeholder="Mobile Number" required>
-<select id="c1"><option>Select Class</option><option>Playgroup</option><option>KG / Nursery</option><option>Class 1</option><option>Class 2</option><option>Class 3</option><option>Class 4</option><option>Class 5</option></select>
-<textarea placeholder="Address - Kaka Sahib"></textarea>
-<button class="btn" style="width:100%;border:none;cursor:pointer">Send Form on WhatsApp ✅</button>
-</form></section>
+    .logo-text {
+      line-height: 1
+    }
 
-<footer><h3>FUTURE LINK SCHOOL</h3><p>📍 Kaka Sahib, Nowshera, KPK<br>📞 Call / WhatsApp: 0333-9049358<br>🕗 Timing: 8am - 2pm (Mon - Sat)</p><p style="margin-top:15px;opacity:.6">© 2026 Future Link School - All Rights Reserved</p></footer>
-<a class="whatsapp" href="https://wa.me/923339049358">WhatsApp 💬</a>
-</body></html>
+    .logo-text b {
+      font-size: 1.25rem
+    }
+
+    .logo-text b span {
+      color: #ffc107
+    }
+
+    .logo-text small {
+      display: block;
+      font-size: .65rem;
+      letter-spacing: 3px;
+      color: #ffc107;
+      font-weight: 700;
+      margin-top: 2px
+    }
+
+    header {
+      background: #0a2a5e;
+      color: white;
+      padding: 12px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: .88rem;
+      font-weight: 600
+    }
+
+    .marquee {
+      background: #ffc107;
+      color: #0a2a5e;
+      font-weight: 800;
+      padding: 8px;
+      overflow: hidden;
+      white-space: nowrap
+    }
+
+    .marquee span {
+      display: inline-block;
+      animation: marquee 18s linear infinite
+    }
+
+    @keyframes marquee {
+      from {
+        transform: translateX(100%)
+      }
+
+      to {
+        transform: translateX(-100%)
+      }
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0a2a5e, #1e6fd9);
+      color: white;
+      padding: 60px 5%;
+      text-align: center
+    }
+
+    .hero-badge {
+      background: rgba(255, 255, 255, .15);
+      display: inline-block;
+      padding: 7px 18px;
+      border-radius: 50px;
+      font-size: .85rem;
+      font-weight: 600
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      line-height: 1.1;
+      margin-top: 15px;
+      font-weight: 900
+    }
+
+    .hero h1 .t {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.2rem;
+      color: #ffc107
+    }
+
+    .hero h1 .f {
+      color: white
+    }
+
+    .hero h1 .l {
+      color: #ffc107
+    }
+
+    .hero p {
+      margin: 15px auto;
+      max-width: 620px;
+      opacity: .92
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ffc107;
+      color: #0a2a5e;
+      padding: 14px 30px;
+      border-radius: 50px;
+      font-weight: 800;
+      text-decoration: none;
+      margin: 8px 5px
+    }
+
+    .btn2 {
+      background: white
+    }
+
+    .btn3 {
+      background: #25D366;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 14px 25px;
+      border-radius: 50px;
+      font-weight: 800;
+      width: 100%
+    }
+
+    section {
+      padding: 50px 5%;
+      max-width: 1100px;
+      margin: auto
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #0a2a5e;
+      margin-bottom: 8px
+    }
+
+    .sub {
+      text-align: center;
+      color: #666;
+      margin-bottom: 30px
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px
+    }
+
+    .card {
+      background: #f7f9ff;
+      padding: 25px;
+      border-radius: 20px;
+      text-align: center;
+      border: 1px solid #e5eaff
+    }
+
+    .card div {
+      font-size: 2.2rem
+    }
+
+    .card h3 {
+      margin: 8px 0;
+      color: #0a2a5e
+    }
+
+    .fee-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      max-width: 700px;
+      margin: auto
+    }
+
+    .fee-card {
+      background: linear-gradient(135deg, #0a2a5e, #1e6fd9);
+      color: white;
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center
+    }
+
+    .fee-card:nth-child(2) {
+      background: linear-gradient(135deg, #ffc107, #ff8a00);
+      color: #0a2a5e
+    }
+
+    .fee-card b {
+      font-size: 2.2rem
+    }
+
+    .fee-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      margin-top: 20px
+    }
+
+    .fee-table th {
+      background: #0a2a5e;
+      color: white;
+      padding: 13px
+    }
+
+    .fee-table td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #eee
+    }
+
+    label {
+      font-size: .85rem;
+      font-weight: 600;
+      display: block;
+      margin-top: 10px;
+      text-align: left
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 5px 0;
+      border: 1px solid #ddd;
+      border-radius: 10px
+    }
+
+    .form-box {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .08)
+    }
+
+    .gallery-box {
+      background: #f7f9ff;
+      padding: 25px;
+      border-radius: 20px
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px
+    }
+
+    .gallery img,
+    .gallery video {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 15px
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 15px;
+      overflow: hidden;
+      background: #fff
+    }
+
+    .gallery-item.selected {
+      outline: 3px solid #ff3b30
+    }
+
+    .sel-check {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      width: 24px !important;
+      height: 24px !important;
+      margin: 0 !important;
+      accent-color: #ff3b30;
+      cursor: pointer;
+      z-index: 2;
+      display: none
+    }
+
+    .del-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: #ff3b30;
+      color: #fff;
+      border: none;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 800;
+      z-index: 2;
+      display: none
+    }
+
+    .admin-btn {
+      background: #0a2a5e;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 13px 25px;
+      border-radius: 50px;
+      font-weight: 800;
+      width: 100%;
+      font-size: .95rem
+    }
+
+    .admin-panel {
+      display: none;
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 15px;
+      border: 1.5px dashed #0a2a5e
+    }
+
+    .delete-bar {
+      display: none;
+      background: #fff3f3;
+      border: 1.5px solid #ff3b30;
+      padding: 12px 15px;
+      border-radius: 12px;
+      margin-top: 15px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap
+    }
+
+    .delete-bar label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 !important;
+      font-weight: 800;
+      color: #0a2a5e
+    }
+
+    .delete-bar label input {
+      width: 20px !important;
+      height: 20px !important;
+      margin: 0 !important;
+      accent-color: #ff3b30
+    }
+
+    .del-selected {
+      background: #ff3b30;
+      color: #fff;
+      border: none;
+      padding: 11px 18px;
+      border-radius: 50px;
+      font-weight: 800;
+      cursor: pointer
+    }
+
+    .settings-box {
+      background: #fffbe6;
+      border: 1.5px solid #ffc107;
+      padding: 15px;
+      border-radius: 12px;
+      margin-top: 15px
+    }
+
+    footer {
+      background: #061a3a;
+      color: white;
+      text-align: center;
+      padding: 35px
+    }
+
+    .footer-logo {
+      font-size: 1.6rem;
+      font-weight: 900
+    }
+
+    .footer-logo span {
+      color: #ffc107
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 14px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700;
+      z-index: 20
+    }
+
+    @media(max-width:600px) {
+      nav {
+        display: none
+      }
+
+      .hero h1 {
+        font-size: 2rem
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header><a class="logo" href="#">
+      <div class="logo-icon">🎓</div>
+      <div class="logo-text"><b>The <span>FutureLink</span> School</b><small>WALAI • NOWSHERA</small></div>
+    </a>
+    <nav><a href="#about">About</a><a href="#fee">Fee</a><a href="#gallery">Gallery</a><a
+        href="#admission">Admission</a></nav>
+  </header>
+  <div class="marquee"><span>🎉 ADMISSION OPEN 2026 - The FutureLink School, Walai, Nowshera - Admission Fee Rs 1500
+      Only | Monthly Fee Rs 2000 Only - Call 0333-9049358 🎉</span></div>
+  <div class="hero"><span class="hero-badge">📍 Walai, Nowshera</span>
+    <h1><span class="t">The</span> <span class="f">Future</span><span class="l">Link</span><br>School, Nowshera</h1>
+    <p>At The FutureLink School, Walai, Nowshera, your child gets quality education, Islamic values and modern skills -
+      all in one place.</p><a class="btn" href="#admission">Fill Admission Form 📝</a><a class="btn btn2"
+      href="https://wa.me/923339049358">WhatsApp Us 💬</a>
+    <p style="font-size:.9rem;margin-top:10px">✅ Admission Open 2026 | ✅ Playgroup to Class 5 | ✅ Monthly Fee Rs 2000
+      Only</p>
+  </div>
+  <section id="about">
+    <h2>Why The FutureLink School?</h2>
+    <p class="sub">We Don't Just Teach, We Build Your Child's Future</p>
+    <div class="grid">
+      <div class="card">
+        <div>📚</div>
+        <h3>Quality Education</h3>
+        <p>Experienced teachers with modern syllabus.</p>
+      </div>
+      <div class="card">
+        <div>🕌</div>
+        <h3>Islamic Training</h3>
+        <p>Daily training of Namaz, Quran and good manners.</p>
+      </div>
+      <div class="card">
+        <div>💻</div>
+        <h3>English + Computer</h3>
+        <p>English speaking and computer training.</p>
+      </div>
+      <div class="card">
+        <div>🏆</div>
+        <h3>Activities</h3>
+        <p>Sports, Naat, Speech and Annual Function.</p>
+      </div>
+    </div>
+  </section>
+  <section id="fee">
+    <h2>Fee Structure</h2>
+    <p class="sub">Same Fee For All Classes - Simple & Affordable | Walai, Nowshera</p>
+    <div class="fee-box">
+      <div class="fee-card">
+        <h3>🎓 ADMISSION FEE</h3><b>Rs 1500</b>
+        <p>One Time Only - For Every Class</p>
+      </div>
+      <div class="fee-card">
+        <h3>📚 MONTHLY FEE</h3><b>Rs 2000</b>
+        <p>Every Month - For Every Class</p>
+      </div>
+    </div>
+    <table class="fee-table">
+      <tbody>
+        <tr>
+          <th>Class</th>
+          <th>Admission Fee</th>
+          <th>Monthly Fee</th>
+        </tr>
+        <tr>
+          <td><b>Playgroup</b></td>
+          <td>Rs 1500</td>
+          <td><b>Rs 2000</b></td>
+        </tr>
+        <tr>
+          <td><b>KG / Nursery</b></td>
+          <td>Rs 1500</td>
+          <td><b>Rs 2000</b></td>
+        </tr>
+        <tr>
+          <td><b>Class 1</b></td>
+          <td>Rs 1500</td>
+          <td><b>Rs 2000</b></td>
+        </tr>
+        <tr>
+          <td><b>Class 2</b></td>
+          <td>Rs 1500</td>
+          <td><b>Rs 2000</b></td>
+        </tr>
+        <tr>
+          <td><b>Class 3</b></td>
+          <td>Rs 1500</td>
+          <td><b>Rs 2000</b></td>
+        </tr>
+        <tr>
+          <td><b>Class 4</b></td>
+          <td>Rs 1500</td>
+          <td><b>Rs 2000</b></td>
+        </tr>
+        <tr>
+          <td><b>Class 5</b></td>
+          <td>Rs 1500</td>
+          <td><b>Rs 2000</b></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="gallery">
+    <h2>📸 School Gallery & Videos</h2>
+    <p class="sub">Upload Directly From Mobile - Visible To Everyone ✅</p>
+    <div class="gallery-box"><button class="admin-btn" onclick="askPassword()">🔐 Admin — Add / Delete /
+        Settings</button>
+      <div class="admin-panel" id="adminPanel">
+        <div style="display:flex;gap:10px;margin-top:5px"><button onclick="document.getElementById('fileInput').click()"
+            class="btn3" style="background:#0a2a5e">📸 Add Photo</button><button
+            onclick="document.getElementById('videoInput').click()" class="btn3" style="background:#ff8a00">🎥 Add
+            Video</button></div><input type="file" id="fileInput" accept="image/*" multiple style="display:none"
+          onchange="uploadFiles(event,'image')"><input type="file" id="videoInput" accept="video/*" multiple
+          style="display:none" onchange="uploadFiles(event,'video')">
+        <p id="uploadStatus" style="font-size:.9rem;color:#0a2a5e;margin-top:10px;text-align:center;font-weight:800">
+        </p>
+        <p style="font-size:.82rem;color:#666;margin-top:8px;text-align:center">Select from mobile gallery, it will
+          upload automatically - Visible to everyone</p>
+        <div class="settings-box">
+          <h4>⚙️ Settings</h4><label>New Admin Password</label><input id="newPass" type="password"
+            placeholder="Enter New Password"><button onclick="changePassword()" class="btn3"
+            style="background:#0a2a5e;margin-top:8px">Change Password 🔑</button><button onclick="clearAllGallery()"
+            class="btn3" style="background:#ff3b30;margin-top:8px">Clear All Gallery 🗑️</button>
+          <p style="font-size:.8rem;color:#666;margin-top:8px">Current Password: <b id="showPass">033390</b></p>
+        </div><button onclick="closeAdmin()"
+          style="background:#eee;border:none;padding:12px;border-radius:50px;margin-top:12px;cursor:pointer;font-weight:800;width:100%">Close
+          Admin ❌</button>
+      </div>
+      <div class="delete-bar" id="deleteBar"><label><input type="checkbox" id="selectAllBox"
+            onchange="toggleSelectAll(this)"> Select All ✅</label><button class="del-selected"
+          onclick="deleteSelected()">Delete Selected 🗑️ (<span id="selCount">0</span>)</button></div>
+      <div class="gallery" id="galleryBox">
+        <p style="text-align:center;color:#666">Loading Gallery... ⏳</p>
+      </div>
+    </div>
+  </section>
+  <section id="admission">
+    <h2>Online Admission Form</h2>
+    <p class="sub">Admission Fee Rs 1500 | Monthly Fee Rs 2000 | Form Will Come On WhatsApp 0333-9049358</p>
+    <form class="form-box" onsubmit="sendAdmission(event)"><label>Student Name *</label><input id="sName"
+        placeholder="Student Full Name" required=""><label>Father Name *</label><input id="fName"
+        placeholder="Father Full Name" required=""><label>Class *</label><select id="sClass">
+        <option>Playgroup</option>
+        <option>KG / Nursery</option>
+        <option>Class 1</option>
+        <option>Class 2</option>
+        <option>Class 3</option>
+        <option>Class 4</option>
+        <option>Class 5</option>
+      </select><label>Gender</label><select id="sGender">
+        <option>Male</option>
+        <option>Female</option>
+      </select><label>Date of Birth *</label><input id="sDob" type="date" required=""><label>Form-B Number
+        (B-Form)</label><input id="sFormB" placeholder="e.g. 17201-1234567-1"><label>Father CNIC *</label><input
+        id="fCnic" placeholder="e.g. 17201-1234567-1" required=""><label>Contact No *</label><input id="sContact"
+        placeholder="03xx-xxxxxxx" required=""><label>Address *</label><textarea id="sAddress"
+        placeholder="Full Address - Walai, Nowshera"></textarea><label>Student Photo (Optional)</label><input
+        type="file" accept="image/*" onchange="previewPhoto(event)"><img id="photoPreview"
+        style="width:100px;height:100px;object-fit:cover;border-radius:15px;display:none;margin-top:10px"><button
+        class="btn3" type="submit">Send Admission Form On WhatsApp ✅</button></form>
+  </section>
+  <footer>
+    <div class="footer-logo">The <span>FutureLink</span> School</div>
+    <p style="letter-spacing:2px;font-size:.8rem;color:#ffc107;font-weight:700;margin:5px 0">WALAI • NOWSHERA</p>
+    <p>📍 Walai, Nowshera, KPK<br>📞 Call / WhatsApp: 0333-9049358<br>🕗 Timing: 8am - 2pm (Mon - Sat)</p>
+    <p style="margin-top:15px;opacity:.6">© 2026 The FutureLink School - All Rights Reserved</p>
+  </footer>
+  <a class="whatsapp" href="https://wa.me/923339049358">WhatsApp 💬</a>
+  <script>
+    const CLOUD_NAME = "xgauh7sa";
+    const UPLOAD_PRESET = "futurelink";
+    const NPOINT_ID = "d251f904e312ac39060f";
+    let ADMIN_PASS = localStorage.getItem('fl_pass') || "033390";
+    let isAdmin = false;
+    let galleryData = [];
+    let deletedIds = JSON.parse(localStorage.getItem('fl_deleted') || '[]');
+    let cachedUploads = JSON.parse(localStorage.getItem('fl_my_uploads') || '[]');
+    function saveDeleted() { localStorage.setItem('fl_deleted', JSON.stringify(deletedIds)); }
+    function saveCached() { localStorage.setItem('fl_my_uploads', JSON.stringify(cachedUploads)); }
+    async function fetchShared() {
+      try { let r = await fetch('https://api.npoint.io/' + NPOINT_ID); let j = await r.json(); if (Array.isArray(j)) return j; if (j && Array.isArray(j.gallery)) return j.gallery; return []; } catch (e) { return []; }
+    }
+    async function saveShared(list) {
+      try { let r = await fetch('https://api.npoint.io/' + NPOINT_ID, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(list) }); return r.ok; } catch (e) { return false; }
+    }
+    async function initGallery() {
+      let shared = await fetchShared();
+      let seen = new Set(); let all = [];
+      let pushItem = (it) => { let k = String(it.id); if (seen.has(k)) return; if (deletedIds.includes(it.id)) return; seen.add(k); all.push(it); };
+      shared.forEach(pushItem);
+      cachedUploads.forEach(pushItem);
+      pushItem({ id: 'old1', type: 'image', src: 'https://res.cloudinary.com/xgauh7sa/image/upload/v1794105450/udh6wziz2pgy57syf9ti.jpg', created: '2026-01-01' });
+      all.sort((a, b) => new Date(b.created || 0) - new Date(a.created || 0));
+      galleryData = all; renderGallery();
+    }
+    function renderGallery() {
+      let box = document.getElementById('galleryBox'); box.innerHTML = '';
+      if (galleryData.length === 0) { box.innerHTML = '<p style="text-align:center;color:#666">Gallery is Empty - Ask Admin to Add</p>'; return; }
+      galleryData.forEach(item => {
+        let el;
+        if (item.type === 'video') { el = document.createElement('video'); el.src = item.src; el.controls = true; el.preload = 'metadata'; }
+        else { el = document.createElement('img'); el.src = item.src; }
+        let wrap = makeItem(el, item.id); box.appendChild(wrap);
+      });
+      updateCount();
+    }
+    function askPassword() { let p = prompt("Enter Admin Password:"); if (p === ADMIN_PASS) { isAdmin = true; document.getElementById('adminPanel').style.display = 'block'; document.getElementById('deleteBar').style.display = 'flex'; document.getElementById('showPass').innerText = ADMIN_PASS; showDeleteControls(); alert('Welcome Admin! Now select a photo from gallery.'); } else if (p !== null) { alert('Wrong Password!'); } }
+    function closeAdmin() { isAdmin = false; document.getElementById('adminPanel').style.display = 'none'; document.getElementById('deleteBar').style.display = 'none'; hideDeleteControls(); }
+    function changePassword() { let np = document.getElementById('newPass').value.trim(); if (!np) { alert('Please Enter New Password First'); return; } ADMIN_PASS = np; localStorage.setItem('fl_pass', np); document.getElementById('showPass').innerText = np; document.getElementById('newPass').value = ''; alert('Password Changed! New Password: ' + np); }
+    async function clearAllGallery() { if (confirm('Do you want to hide all gallery?')) { galleryData.forEach(x => { if (!deletedIds.includes(x.id)) deletedIds.push(x.id); }); saveDeleted(); cachedUploads = []; saveCached(); await saveShared([]); galleryData = []; renderGallery(); alert('Gallery Cleared!'); } }
+    function showDeleteControls() { document.querySelectorAll('.sel-check').forEach(c => c.style.display = 'block'); document.querySelectorAll('.del-btn').forEach(b => b.style.display = 'block'); }
+    function hideDeleteControls() { document.querySelectorAll('.sel-check').forEach(c => { c.style.display = 'none'; c.checked = false }); document.querySelectorAll('.del-btn').forEach(b => b.style.display = 'none'); document.querySelectorAll('.gallery-item').forEach(i => i.classList.remove('selected')); let s = document.getElementById('selectAllBox'); if (s) s.checked = false; updateCount(); }
+    function makeItem(el, id) { let wrap = document.createElement('div'); wrap.className = 'gallery-item'; wrap.dataset.id = id; let chk = document.createElement('input'); chk.type = 'checkbox'; chk.className = 'sel-check'; chk.onchange = updateCount; let del = document.createElement('button'); del.className = 'del-btn'; del.innerHTML = '✕'; del.onclick = function () { deleteOne(del) }; wrap.appendChild(chk); wrap.appendChild(del); wrap.appendChild(el); if (isAdmin) { chk.style.display = 'block'; del.style.display = 'block'; } return wrap; }
+    function toggleSelectAll(box) { document.querySelectorAll('.sel-check').forEach(c => { c.checked = box.checked; }); updateCount(); }
+    function updateCount() { let all = document.querySelectorAll('.sel-check'); let checked = document.querySelectorAll('.sel-check:checked'); let sc = document.getElementById('selCount'); if (sc) sc.innerText = checked.length; let sa = document.getElementById('selectAllBox'); if (sa) sa.checked = all.length > 0 && checked.length === all.length; all.forEach(c => { let item = c.closest('.gallery-item'); if (c.checked) item.classList.add('selected'); else item.classList.remove('selected'); }); }
+    async function deleteOne(btn) { if (!isAdmin) { alert('Please Enter Admin Password First!'); return; } if (confirm('Do you want to delete this?')) { let id = btn.closest('.gallery-item').dataset.id; if (!deletedIds.includes(id)) deletedIds.push(id); saveDeleted(); cachedUploads = cachedUploads.filter(x => String(x.id) !== String(id)); saveCached(); galleryData = galleryData.filter(x => String(x.id) !== String(id)); await saveShared(galleryData.filter(x => x.id !== 'old1')); renderGallery(); } }
+    async function deleteSelected() { if (!isAdmin) { alert('Please Enter Admin Password First!'); return; } let checked = document.querySelectorAll('.sel-check:checked'); if (checked.length === 0) { alert('Please Select One First!'); return; } if (confirm('Do you want to delete ' + checked.length + ' items?')) { for (let c of checked) { let id = c.closest('.gallery-item').dataset.id; if (!deletedIds.includes(id)) deletedIds.push(id); } saveDeleted(); cachedUploads = cachedUploads.filter(x => !deletedIds.includes(String(x.id))); saveCached(); galleryData = galleryData.filter(x => !deletedIds.includes(String(x.id))); await saveShared(galleryData.filter(x => x.id !== 'old1')); renderGallery(); document.getElementById('selectAllBox').checked = false; alert('Deleted!'); } }
+    function previewPhoto(e) { let f = e.target.files[0]; if (f) { let r = new FileReader(); r.onload = function () { let img = document.getElementById('photoPreview'); img.src = r.result; img.style.display = 'block' }; r.readAsDataURL(f) } }
+    function sendAdmission(e) { e.preventDefault(); let msg = "*NEW ADMISSION - THE FUTURELINK SCHOOL, WALAI, NOWSHERA*%0A%0A" + "👦 Student Name: " + document.getElementById('sName').value + "%0A" + "👨 Father Name: " + document.getElementById('fName').value + "%0A" + "📚 Class: " + document.getElementById('sClass').value + "%0A" + "⚧ Gender: " + document.getElementById('sGender').value + "%0A" + "🎂 Date of Birth: " + document.getElementById('sDob').value + "%0A" + "🪪 Form-B No: " + document.getElementById('sFormB').value + "%0A" + "🪪 Father CNIC: " + document.getElementById('fCnic').value + "%0A" + "📞 Contact No: " + document.getElementById('sContact').value + "%0A" + "🏠 Address: " + document.getElementById('sAddress').value; window.open('https://wa.me/923339049358?text=' + msg, '_blank'); alert('Thank You! Your Admission Form Has Been Sent On WhatsApp.') }
+    async function uploadFiles(e, kind) {
+      if (!isAdmin) { alert('Please Enter Admin Password First!'); return; }
+      let files = e.target.files; if (!files || files.length === 0) return;
+      let status = document.getElementById('uploadStatus');
+      let count = 0;
+      for (let f of files) {
+        if (f.size > 50 * 1024 * 1024) { alert(f.name + ' is too large'); continue; }
+        try {
+          status.innerText = 'Uploading... Please Wait ⏳ ' + f.name + ' - Do not close, please wait';
+          let data = new FormData();
+          data.append('file', f);
+          data.append('upload_preset', UPLOAD_PRESET);
+          let res = await fetch('https://api.cloudinary.com/v1_1/' + CLOUD_NAME + '/auto/upload', { method: 'POST', body: data });
+          let json = await res.json();
+          if (!json.secure_url) throw new Error(json.error ? json.error.message : 'Upload Failed');
+          count++;
+          let newItem = { id: json.public_id, type: kind, src: json.secure_url, created: new Date().toISOString() };
+          cachedUploads.unshift(newItem); saveCached();
+          galleryData.unshift(newItem);
+          renderGallery();
+          let shared = await fetchShared();
+          shared.unshift(newItem);
+          let ok = await saveShared(shared);
+          if (!ok) status.innerText = 'Uploaded but NOT saved for everyone! Check NPOINT - It still has old data, please make it []';
+          else status.innerText = count + ' Uploaded Successfully! ✅ Visible to everyone.';
+        } catch (err) { alert('Upload Failed: ' + err.message); }
+      }
+      e.target.value = '';
+      if (count > 0) { alert(count + ' Photo Uploaded Successfully! Now visible to everyone.'); }
+    }
+    initGallery();
+  </script>
+</body>
+
+</html>
