@@ -1,0 +1,79 @@
+
+class Queue {
+    int front = 0, rear = -1;
+    int size = 5;
+    int arr[] = new int[size];
+
+    void enqueue(int x) {
+        if (rear == size - 1) {
+            System.out.println("Queue Overflow! Queue is Full.");
+            return;
+        }
+        arr[++rear] = x;
+        System.out.println(x + " enqueued in Queue.");
+    }
+
+    void dequeue() {
+        if (front > rear) {
+            System.out.println("Queue Underflow! Queue is Empty.");
+            return;
+        }
+        System.out.println(arr[front++] + " dequeued from Queue.");
+    }
+
+    void frontElement() {
+        if (front > rear) {
+            System.out.println("Queue is Empty.");
+            return;
+        }
+        System.out.println("Front Element: " + arr[front]);
+    }
+
+    void display() {
+        if (front > rear) {
+            System.out.println("Queue is Empty.");
+            return;
+        }
+        System.out.print("Queue (Front to Rear): ");
+        for (int i = front; i <= rear; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+}
+
+public class QueueProgram {
+    public static void main(String[] args) {
+        Queue q = new Queue();
+        Scanner input = new Scanner(System.in);
+        int choice, value;
+
+        while (true) {
+            System.out.println("\n--- Queue Menu ---");
+            System.out.println("1. Enqueue");
+            System.out.println("2. Dequeue");
+            System.out.println("3. Front");
+            System.out.println("4. Display");
+            System.out.println("5. Exit");
+            System.out.print("Enter choice: ");
+            choice = input.nextInt();
+
+            if (choice == 1) {
+                System.out.print("Enter value: ");
+                value = input.nextInt();
+                q.enqueue(value);
+            } else if (choice == 2) {
+                q.dequeue();
+            } else if (choice == 3) {
+                q.frontElement();
+            } else if (choice == 4) {
+                q.display();
+            } else if (choice == 5) {
+                break;
+            } else {
+                System.out.println("Invalid Choice!");
+            }
+        }
+        input.close();
+    }
+}
